@@ -24,12 +24,12 @@ SEVERITY_KEYWORDS = [
 CATEGORY_KEYWORDS: list[tuple[str, list[str]]] = [
     ("Pothole",         ["pothole", "pot hole", "crater", "pit in road"]),
     ("Flooding",        ["flood", "waterlog", "submerged", "inundated", "water on road"]),
-    ("Streetlight",     ["streetlight", "street light", "lamp post", "light out", "dark road", "no light"]),
+    ("Streetlight",     ["streetlight", "street light", "lamp post", "light out", "dark road", "no light", "unlit"]),
     ("Waste",           ["garbage", "waste", "trash", "rubbish", "litter", "dumping", "sewage smell"]),
-    ("Noise",           ["noise", "loud", "sound", "honking", "blaring", "disturbance"]),
-    ("Road Damage",     ["road damage", "broken road", "road crack", "damaged road", "road broken", "road surface"]),
+    ("Noise",           ["noise", "loud", "sound", "honking", "blaring", "disturbance", "music"]),
+    ("Road Damage",     ["road damage", "broken road", "road crack", "damaged road", "road broken", "road surface", "paving"]),
     ("Heritage Damage", ["heritage", "monument", "historical", "ancient", "old building"]),
-    ("Heat Hazard",     ["heat", "hot", "temperature", "sun", "thermal", "heat wave"]),
+    ("Heat Hazard",     ["heat", "hot", "temperature", "sun", "thermal", "heat wave", "melting"]),
     ("Drain Blockage",  ["drain", "blocked drain", "clogged", "overflow", "manhole", "sewer"]),
 ]
 
